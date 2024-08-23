@@ -325,11 +325,15 @@ h2::selection {
 
 }
 
+
+
 #proj-pagination {
   .project-link {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
     a {
+      position: fixed;
       margin: 2%;
       &:hover {
         cursor: pointer;
@@ -340,6 +344,15 @@ h2::selection {
         height: 2.5rem;
       } 
     }
+
+    a.prev.link {
+        left: 0px;
+        bottom: 50%;
+    }
+    a.next.link {
+      right: 0;
+      top: 25%;
+  }
     
     path {
       fill: var(--text-color);
