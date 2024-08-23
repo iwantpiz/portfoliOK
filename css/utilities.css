@@ -343,16 +343,16 @@ h2::selection {
         cursor: pointer;
       }
       .button01 {
-        background: url(../assets/project/pagination-btn1.jpg) center center/cover;
+        background: url(/assets/project/pagination-btn1.jpg) center center/cover;
       }
       .button02 {
-        background: url(../assets/project/pagination-btn2.jpg) center center/cover;
+        background: url(/assets/project/pagination-btn2.jpg) center center/cover;
       }
       .button03 {
-        background: url(../assets/project/pagination-btn3.jpg) center center/cover;
+        background: url(/assets/project/pagination-btn3.jpg) center center/cover;
       }
       .button04 {
-        background: url(../assets/project/pagination-btn4.jpg) center center/cover;
+        background: url(/assets/project/pagination-btn4.jpg) center center/cover;
       }
     }
   }
