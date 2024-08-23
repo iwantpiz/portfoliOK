@@ -135,7 +135,7 @@ h2::selection {
 
 /* project 1 */
 .card {
-  &:nth-child(1) {
+  &:nth-child(4) {
     background: url(../assets/project/home-project-pininfarina.jpg) center center/cover;
     padding-top: 59.314%
   }
@@ -150,7 +150,7 @@ h2::selection {
     padding-top: 37.964%;
   }
 
-  &:nth-child(4) {
+  &:nth-child(1) {
     background: url(../assets/project/home-project-nok.jpg) center center/cover;
     padding-top: 59.314%
   }
