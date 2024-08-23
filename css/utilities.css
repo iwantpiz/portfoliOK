@@ -342,16 +342,16 @@ h2::selection {
       &:hover {
         cursor: pointer;
       }
-      .button01 {
+      .link.button01 {
         background: url(/assets/project/pagination-btn1.jpg) center center/cover;
       }
-      .button02 {
+      .link.button02 {
         background: url(/assets/project/pagination-btn2.jpg) center center/cover;
       }
-      .button03 {
+      .link.button03 {
         background: url(/assets/project/pagination-btn3.jpg) center center/cover;
       }
-      .button04 {
+      .link.button04 {
         background: url(/assets/project/pagination-btn4.jpg) center center/cover;
       }
     }
