@@ -330,20 +330,22 @@ h2::selection {
 #proj-pagination {
   width: 100%;
   position: fixed;
-  top: 41%;
+  top: 50%;
   left: 0;
   .project-link {
     display: flex;
     justify-content: space-between;
+    background-color: var(--primary-color);
+    border-radius: 50%;
     a {
-      margin: 2%;
+      margin: 1%;
       &:hover {
         cursor: pointer;
       }
       
       svg {
-        width: 2.5rem;
-        height: 2.5rem;
+        width: 2rem;
+        height: 2rem;
       } 
     }
 
