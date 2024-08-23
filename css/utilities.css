@@ -337,30 +337,24 @@ h2::selection {
     justify-content: space-between;
     a {
       margin: 0;
-      background-color: var(--primary-color);
       width: 49%;
       height: 10vh;
       &:hover {
         cursor: pointer;
       }
-      
-      svg {
-        width: 2rem;
-        height: 2rem;
-      } 
+      .button01 {
+        background: url(../assets/project/pagination-btn1.jpg) center center/cover;
+      }
+      .button02 {
+        background: url(../assets/project/pagination-btn2.jpg) center center/cover;
+      }
+      .button03 {
+        background: url(../assets/project/pagination-btn3.jpg) center center/cover;
+      }
+      .button04 {
+        background: url(../assets/project/pagination-btn4.jpg) center center/cover;
+      }
     }
-
-    a.prev.link {
-        left: 0px;
-    }
-    a.next.link {
-      right: 0;
-  }
-    
-    path {
-      fill: var(--text-color);
-    }
-  
   }
 }
 
