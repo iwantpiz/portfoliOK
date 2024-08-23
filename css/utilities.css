@@ -328,12 +328,13 @@ h2::selection {
 
 
 #proj-pagination {
+  width: 100%;
   position: fixed;
   top: 41%;
+  left: 0;
   .project-link {
     display: flex;
     justify-content: space-between;
-    width: 100%;
     a {
       margin: 2%;
       &:hover {
