@@ -342,18 +342,18 @@ h2::selection {
       &:hover {
         cursor: pointer;
       }
-      .link.button01 {
-        background: url(../assets/project/pagination-btn1.jpg) center center/cover;
-      }
-      .link.button02 {
-        background: url(../assets/project/pagination-btn2.jpg) center center/cover;
-      }
-      .link.button03 {
-        background: url(../assets/project/pagination-btn3.jpg) center center/cover;
-      }
-      .link.button04 {
-        background: url(../assets/project/pagination-btn4.jpg) center center/cover;
-      }
+    }
+    .link.button01 {
+      background: url(../assets/project/pagination-btn1.jpg) center center/cover;
+    }
+    .link.button02 {
+      background: url(../assets/project/pagination-btn2.jpg) center center/cover;
+    }
+    .link.button03 {
+      background: url(../assets/project/pagination-btn3.jpg) center center/cover;
+    }
+    .link.button04 {
+      background: url(../assets/project/pagination-btn4.jpg) center center/cover;
     }
   }
 }
