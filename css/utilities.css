@@ -335,10 +335,10 @@ h2::selection {
   .project-link {
     display: flex;
     justify-content: space-between;
-    background-color: var(--primary-color);
-    border-radius: 50%;
     a {
       margin: 1%;
+      background-color: var(--primary-color);
+      border-radius: 50%;
       &:hover {
         cursor: pointer;
       }
