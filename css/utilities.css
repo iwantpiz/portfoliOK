@@ -337,8 +337,12 @@ h2::selection {
     justify-content: space-between;
     a {
       margin: 0;
-      width: 49%;
-      height: 10vh;
+      width: 49.5%;
+      height: 7.2vh;
+      display: flex;
+      align-items: center;
+      padding-left: 2%;
+      color: var(--text-color);
       &:hover {
         cursor: pointer;
       }
