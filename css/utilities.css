@@ -356,6 +356,8 @@ h2::selection {
     }
     .link.button01:before {
       content: url(../assets/project/pagination-btn1-logo.png);
+      filter: invert(1);
+      mix-blend-mode: plus-lighter;
     }
     .link.button02 {
       background: url(../assets/project/pagination-btn2.jpg) center center/cover;
