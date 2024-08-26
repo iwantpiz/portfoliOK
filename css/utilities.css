@@ -349,29 +349,17 @@ h2::selection {
     .next {
       justify-content: flex-end;
     }
-    .prev.link.button01 {
-      background: url(../assets/project/pagination-btn1-PREV.jpg) center center/cover;
+    .link.button01 {
+      background: url(../assets/project/pagination-btn1.jpg) center center/cover;
     }
-    .prev.link.button02 {
-      background: url(../assets/project/pagination-btn2-PREV.jpg) center center/cover;
+    .link.button02 {
+      background: url(../assets/project/pagination-btn2.jpg) center center/cover;
     }
-    .prev.link.button03 {
-      background: url(../assets/project/pagination-btn3-PREV.jpg) center center/cover;
+    .link.button03 {
+      background: url(../assets/project/pagination-btn3.jpg) center center/cover;
     }
-    .prev.link.button04 {
-      background: url(../assets/project/pagination-btn4-PREV.jpg) center center/cover;
-    }
-    .next.link.button01 {
-      background: url(../assets/project/pagination-btn1-NEXT.jpg) center center/cover;
-    }
-    .next.link.button02 {
-      background: url(../assets/project/pagination-btn2-NEXT.jpg) center center/cover;
-    }
-    .next.link.button03 {
-      background: url(../assets/project/pagination-btn3-NEXT.jpg) center center/cover;
-    }
-    .next.link.button04 {
-      background: url(../assets/project/pagination-btn4-NEXT.jpg) center center/cover;
+    .link.button04 {
+      background: url(../assets/project/pagination-btn4.jpg) center center/cover;
     }
   }
 }
