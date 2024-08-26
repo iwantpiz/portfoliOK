@@ -355,6 +355,10 @@ h2::selection {
     .link.button02 {
       background: url(../assets/project/pagination-btn2.jpg) center center/cover;
     }
+    .link.button02:before {
+      content: url(../assets/project/pagination-btn2-logo.png);
+      display: inline-block;
+    }
     .link.button03 {
       background: url(../assets/project/pagination-btn3.jpg) center center/cover;
     }
