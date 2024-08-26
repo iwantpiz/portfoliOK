@@ -381,14 +381,12 @@ h2::selection {
       }
 
       &:after {
-        content:'';
+        content: '';
         background: var(--solo-black);
-        left: 0;
-        bottom: 0;
         display: block;
-        position: absolute;
-        width: 100%;
+        position: relative;
         height: 7.8vh;
+        top: -7.8vh;
       }
     }
   }
