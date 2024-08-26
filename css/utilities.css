@@ -326,55 +326,70 @@ h2::selection {
 
 
 #proj-pagination {
-  width: 100%;
   .project-link {
     display: flex;
     justify-content: space-between;
-    a {
-      margin: 0;
-      width: 49%;
-      height: 7.8vh; 
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 2%;
-      color: var(--solo-white);
-      font-size: 1.8rem;
-      &:hover {
-        cursor: pointer;
+    .container-btn {
+      width: 100%;
+      a {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2%;
+        color: var(--solo-white);
+        font-size: 1.8rem;
+        &:hover {
+          cursor: pointer;
+        }
+        &:before {
+          line-height: 1rem;
+        }
       }
-      &:before {
-        line-height: 1rem;
+      a.prev.link {
+        flex-flow: row-reverse;
       }
-    }
-    a.prev.link {
-      flex-flow: row-reverse;
-    }
-      
-    .link.button01 {
-      background: url(../assets/project/pagination-btn1.jpg) center center/cover;
-    }
-    .link.button01:before {
-      content: url(../assets/project/pagination-btn1-logo.png);
-      mix-blend-mode: plus-lighter;
-    }
-    .link.button02 {
-      background: url(../assets/project/pagination-btn2.jpg) center center/cover;
-    }
-    .link.button02:before {
-      content: url(../assets/project/pagination-btn2-logo.png);
-    }
-    .link.button03 {
-      background: url(../assets/project/pagination-btn3.jpg) center center/cover;
-    }
-    .link.button03:before {
-      content: url(../assets/project/pagination-btn3-logo.png);
-    }
-    .link.button04 {
-      background: url(../assets/project/pagination-btn4.jpg) center center/cover;
-    }
-    .link.button04:before {
-      content: url(../assets/project/pagination-btn4-logo.png);
+      .link {
+        max-width:95%;
+        height: 7.8vh; 
+      }
+        
+      .button01 {
+        background: url(../assets/project/pagination-btn1.jpg) center center/cover;
+      }
+      .button01:before {
+        content: url(../assets/project/pagination-btn1-logo.png);
+        mix-blend-mode: plus-lighter;
+      }
+      .button02 {
+        background: url(../assets/project/pagination-btn2.jpg) center center/cover;
+      }
+      .button02:before {
+        content: url(../assets/project/pagination-btn2-logo.png);
+      }
+      .button03 {
+        background: url(../assets/project/pagination-btn3.jpg) center center/cover;
+      }
+      .button03:before {
+        content: url(../assets/project/pagination-btn3-logo.png);
+      }
+      .button04 {
+        background: url(../assets/project/pagination-btn4.jpg) center center/cover;
+      }
+      .button04:before {
+        content: url(../assets/project/pagination-btn4-logo.png);
+      }
+
+      &:after {
+        content:'';
+        background: var(--solo-black);
+        left: 0;
+        bottom: 0;
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 7.8vh;
+      }
     }
   }
 }
