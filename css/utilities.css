@@ -333,13 +333,13 @@ h2::selection {
     a {
       margin: 0;
       width: 49%;
-      height: 7.2vh; 
+      height: 7.8vh; 
       display: flex;
       align-items: center;
       justify-content: space-between;
       padding: 2%;
       color: var(--solo-white);
-      font-size: 2rem;
+      font-size: 1.8rem;
       &:hover {
         cursor: pointer;
       }
