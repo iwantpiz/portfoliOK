@@ -388,10 +388,8 @@ h2::selection {
         background: var(--solo-black);
         display: block;
         position: relative;
-        height: 7.8vh;
         top: -7.8vh;
         z-index: 10;
-        max-width: 95%;
         filter: opacity(0);
         transition: all 0.2s ease-in;
       }
