@@ -352,8 +352,6 @@ h2::selection {
         flex-flow: row-reverse;
       }
       .link {
-        max-width:95%;
-        height: 7.8vh;
         .link-text {
           z-index: 999;
         }
