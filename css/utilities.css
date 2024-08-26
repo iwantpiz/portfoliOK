@@ -351,7 +351,8 @@ h2::selection {
       }
       .link {
         max-width:95%;
-        height: 7.8vh; 
+        height: 7.8vh;
+        z-index: 999;
       }
         
       .button01 {
@@ -387,6 +388,7 @@ h2::selection {
         position: relative;
         height: 7.8vh;
         top: -7.8vh;
+        z-index: 10;
       }
     }
   }
