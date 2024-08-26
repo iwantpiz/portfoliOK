@@ -344,6 +344,7 @@ h2::selection {
         }
         &:before {
           line-height: 1rem;
+          z-index: 999;
         }
       }
       a.prev.link {
@@ -389,6 +390,7 @@ h2::selection {
         height: 7.8vh;
         top: -7.8vh;
         z-index: 10;
+        max-width: 95%;
       }
     }
   }
