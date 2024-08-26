@@ -597,7 +597,11 @@ h2::selection {
          border-radius: 5px !important;
        }
    }
+   .project-link {
+    flex-flow: column-reverse;
+   }
  }
+
 
 /***********     FOOTER       ************/
   #footer {
@@ -613,6 +617,7 @@ h2::selection {
       }
     }
   }
+  
 }
 
   /*************      mobile       ****************/
