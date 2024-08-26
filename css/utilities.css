@@ -357,6 +357,9 @@ h2::selection {
         .link-text {
           text-align: left;
           }
+        &:before {
+          text-align: right;
+          }
       }
       .next.link {
         .link-text {
