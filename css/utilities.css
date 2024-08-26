@@ -274,7 +274,6 @@ h2::selection {
     .ph-image { 
       background-image: url(../assets/project/onadasail/project03-onadasail0.jpg);
     }     
-
   }
 
     /* NokNok Content */
@@ -376,28 +375,28 @@ h2::selection {
         
       .button01 {
         background: url(../assets/project/pagination-btn1.jpg) center center/cover;
-      }
-      .button01:before {
-        content: url(../assets/project/pagination-btn1-logo.png);
-        mix-blend-mode: plus-lighter;
+        &:before {
+          content: url(../assets/project/pagination-btn1-logo.png);
+          mix-blend-mode: plus-lighter;
+        }
       }
       .button02 {
         background: url(../assets/project/pagination-btn2.jpg) center center/cover;
-      }
-      .button02:before {
-        content: url(../assets/project/pagination-btn2-logo.png);
+        &:before {
+          content: url(../assets/project/pagination-btn2-logo.png);
+        }
       }
       .button03 {
         background: url(../assets/project/pagination-btn3.jpg) center center/cover;
-      }
-      .button03:before {
-        content: url(../assets/project/pagination-btn3-logo.png);
+        &:before {
+          content: url(../assets/project/pagination-btn3-logo.png);
+        }
       }
       .button04 {
         background: url(../assets/project/pagination-btn4.jpg) center center/cover;
-      }
-      .button04:before {
-        content: url(../assets/project/pagination-btn4-logo.png);
+        &:before {
+          content: url(../assets/project/pagination-btn4-logo.png);
+        }
       }
 
       &:after {
@@ -415,6 +414,9 @@ h2::selection {
       &:hover:after {
         filter: opacity(0.5);
         transition: all 0.4s ease-out;
+      }
+      &:first-child {
+        margin-right: 2%;
       }
     }
   }
