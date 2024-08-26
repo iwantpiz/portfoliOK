@@ -321,8 +321,6 @@ h2::selection {
         border-radius: 15px;
       }
   }
-
-
 }
 
 
@@ -338,11 +336,14 @@ h2::selection {
       height: 7.2vh; 
       display: flex;
       align-items: center;
-      padding-left: 2%;
+      padding: 2%;
       color: var(--text-color);
       &:hover {
         cursor: pointer;
       }
+    }
+    .next {
+      justify-content: flex-end;
     }
     .prev.link.button01 {
       background: url(../assets/project/pagination-btn1-PREV.jpg) center center/cover;
