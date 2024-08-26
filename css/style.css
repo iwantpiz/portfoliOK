@@ -13,8 +13,10 @@
   --bg-secondary: #e5e5e5;
   --card-background: #e5e5e5;
   --bg-secondary-two: #1b1b1b;
-
   --shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  --solo-black: #1B1B1B;
+  --solo-white: #ffffff;
+  
 
   /* Font Weight */
   --weight-small: 400;
