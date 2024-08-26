@@ -344,10 +344,7 @@ h2::selection {
         cursor: pointer;
       }
     }
-/*
-    .next {
-      justify-content: flex-end;
-    }
+
       */
     .link.button01 {
       background: url(../assets/project/pagination-btn1.jpg) center center/cover;
@@ -375,14 +372,7 @@ h2::selection {
     }
   }
 
-
-  a.prev.link {
-    &:before {
-      display: inline-block;
-    }
-  }
   a.next.link {
-    display: inline-block;
     flex-flow: row-reverse;
   }
 }
