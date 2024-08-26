@@ -327,7 +327,6 @@ h2::selection {
 
 #proj-pagination {
   width: 100%;
-  margin-top: 10%;
   .project-link {
     display: flex;
     justify-content: space-between;
@@ -345,7 +344,7 @@ h2::selection {
         cursor: pointer;
       }
       &:before {
-        margin-top:15px;
+        line-height: 1rem;
       }
     }
     a.prev.link {
