@@ -347,13 +347,16 @@ h2::selection {
           z-index: 999;
         }
       }
+
       a.prev.link {
         flex-flow: row-reverse;
       }
       .link {
         max-width:95%;
         height: 7.8vh;
-        z-index: 999;
+        .link-text {
+          z-index: 999;
+        }
       }
         
       .button01 {
@@ -391,6 +394,12 @@ h2::selection {
         top: -7.8vh;
         z-index: 10;
         max-width: 95%;
+        filter: opacity(0);
+        transition: all 0.2s ease-in;
+      }
+      &:hover:after {
+        filter: opacity(0.5);
+        transition: all 0.4s ease-out;
       }
     }
   }
