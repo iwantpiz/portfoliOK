@@ -352,9 +352,18 @@ h2::selection {
         }
       }
 
-      a.prev.link {
+      .prev.link {
         flex-flow: row-reverse;
+        .link-text {
+          text-align: left;
+          }
       }
+      .next.link {
+        .link-text {
+          text-align: right;
+          }
+      }
+
       .link {
         .link-text {
           z-index: 999;
