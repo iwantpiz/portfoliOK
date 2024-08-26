@@ -550,8 +550,6 @@ h2::selection {
 }
 
 
-
-
  /*    project page    */
  #proj-page {
     .descript {
@@ -592,7 +590,6 @@ h2::selection {
       }
     }
   }
-
 }
 
   /*************      mobile       ****************/
@@ -602,7 +599,6 @@ h2::selection {
         font-size: 1.1rem !important;
         line-height: 1.5em !important;
       }
-
 
 
  /*    home porject area    */
