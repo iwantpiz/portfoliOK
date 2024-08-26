@@ -347,7 +347,7 @@ h2::selection {
         margin-top:15px;
       }
     }
-    a.next.link {
+    a.prev.link {
       flex-flow: row-reverse;
     }
       
