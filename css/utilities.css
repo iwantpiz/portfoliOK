@@ -341,12 +341,14 @@ h2::selection {
         color: var(--solo-white);
         font-size: 1.6rem;
         height: 8vh;
+        width: 100%;
         &:hover {
           cursor: pointer;
         }
         &:before {
           line-height: 1rem;
           z-index: 999;
+          width: 50%;
         }
       }
 
@@ -356,6 +358,7 @@ h2::selection {
       .link {
         .link-text {
           z-index: 999;
+          width: 50%;
         }
       }
         
