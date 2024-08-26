@@ -338,7 +338,7 @@ h2::selection {
         justify-content: space-between;
         padding: 2%;
         color: var(--solo-white);
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         &:hover {
           cursor: pointer;
         }
