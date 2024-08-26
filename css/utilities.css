@@ -336,6 +336,7 @@ h2::selection {
       height: 7.2vh; 
       display: flex;
       align-items: center;
+      justify-content: space-between;
       padding: 2%;
       color: var(--text-color);
       font-size: 2rem;
