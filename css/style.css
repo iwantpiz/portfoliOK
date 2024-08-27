@@ -19,6 +19,7 @@
   
 
   /* Font Weight */
+  --weight-x-small: 300;
   --weight-small: 400;
   --weight-semibold: 600;
   --weight-bold: 800;
@@ -134,8 +135,9 @@ h3  {
   }
 
   #logo {
-    font-size: 1.4rem;
-    line-height: 1.8rem;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    font-weight: var(--weight-x-small);
   }
 }
 

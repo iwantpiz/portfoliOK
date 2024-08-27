@@ -194,6 +194,12 @@ h2::selection {
       .title {
         flex: 1 1 40%;
         padding: 0 3%;
+        h2 {
+          font-size: 3.5rem;
+        }
+        .subtitle {
+          font-size: 1.6rem;
+        }
       }
     }
 
@@ -347,6 +353,12 @@ h2::selection {
           }
         }
 
+        .link {
+          .link-text {
+            z-index: 999;
+            width: 50%;
+          }
+        }
         .prev.link {
           flex-flow: row-reverse;
           .link-text {
@@ -362,13 +374,8 @@ h2::selection {
             }
         }
 
-        .link {
-          .link-text {
-            z-index: 999;
-            width: 50%;
-          }
-        }
-          
+        
+      /*     pagination buttons     */
         .button01 {
           background: url(../assets/project/pagination-btn1.jpg) center center/cover;
           &:before {
