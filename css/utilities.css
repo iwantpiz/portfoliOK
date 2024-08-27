@@ -197,12 +197,14 @@ h2::selection {
       }
       h2 {
         font-size: 3.5rem;
-        /*line-height: 7vw;*/
+        letter-spacing: 2px;
+        line-height: 2;
       }
-      .subtitle {
+      .h4.subtitle {
         font-size: 1.6rem;
-        font-weight: var(--weight-small);
       }
+    }
+
     
     .pimage {
       background: var(--bg-secondary);
