@@ -92,6 +92,10 @@ h3  {
   font-family: "Cabin", sans-serif;
 }
 
+h2 {
+  font-size: 5.5vw;
+  line-height: 7vw;
+}
 
 .animation {
   animation-duration: 600ms;
