@@ -193,15 +193,7 @@ h2::selection {
       }
       .title {
         flex: 1 1 40%;
-        padding: 0 3% 6%;
-      }
-      h2 {
-        font-size: 3.5rem;
-        letter-spacing: 2px;
-        line-height: 2;
-      }
-      .h4.subtitle {
-        font-size: 1.6rem;
+        padding: 0 3%;
       }
     }
 
