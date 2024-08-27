@@ -46,7 +46,7 @@ html {
   scroll-behavior: smooth;
 }
 p, li, em {
-  margin-bottom: 1rem;
+  margin: 1rem 0;
   line-height: 1.8rem;
 }
 
@@ -90,11 +90,6 @@ h1,
 h2,
 h3  {
   font-family: "Cabin", sans-serif;
-}
-
-h2 {
-  font-size: 5.5vw;
-  line-height: 7vw;
 }
 
 .animation {

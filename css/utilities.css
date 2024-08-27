@@ -194,10 +194,16 @@ h2::selection {
       }
       .title {
         flex: 1 1 40%;
-        padding: 0 3%;
+        padding: 0 3% 6%;
       }
-    }
-
+      h2 {
+        font-size: 3.5rem;
+        /*line-height: 7vw;*/
+      }
+      .subtitle {
+        font-size: 1.6rem;
+        font-weight: var(--weight-small);
+      }
     
     .pimage {
       background: var(--bg-secondary);
