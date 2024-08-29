@@ -108,7 +108,7 @@ h3  {
     align-items: center;
     justify-content: space-between;
     z-index: 20;
-    height: 7.5rem;
+    /*height: 7.5rem;*/
     width: 100%;
     padding: 7rem 2rem;
   }
