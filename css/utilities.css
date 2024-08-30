@@ -596,7 +596,7 @@ h2::selection {
   }
 }
 #projects.container {
-  padding: 0;
+  padding: 2rem 0;
 }
 
 
@@ -658,7 +658,7 @@ h2::selection {
 
  /*    home porject area    */
     #projects {
-      margin:3rem auto;
+      margin:1% auto;
       .project {
         max-height: 35rem !important;
       }
@@ -678,7 +678,7 @@ h2::selection {
         }
     }
     #proj-page.container {
-      padding: 0 1rem;
+      padding: 1rem;
     }
 
     #proj-pagination {
