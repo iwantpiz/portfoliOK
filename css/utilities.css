@@ -658,7 +658,7 @@ h2::selection {
 
  /*    home porject area    */
     #projects {
-      margin:0 auto;
+      margin:3rem auto;
       .project {
         max-height: 35rem !important;
       }
