@@ -159,6 +159,8 @@ h2::selection {
 /* Project Pages general */
 
 #proj-page {
+  padding-top: 0;
+  margin-top: -3rem;
   .proj-content {
     .heroimage {
       position: relative;
