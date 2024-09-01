@@ -115,10 +115,6 @@ h2::selection {
     opacity: 1 !important;
   }
 
-  .card:nth-child(2) {
-    order: 3;
-}
-
   a {
     color: var(--text-color-two);
     transition: 0.25s ease-in-out;
@@ -598,6 +594,9 @@ h2::selection {
         &:nth-child(n) {
           padding-top: 125%;
         }
+        &:nth-child(2) {
+          order: 3;
+      }
       }
   }
 }
