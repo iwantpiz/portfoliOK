@@ -115,6 +115,10 @@ h2::selection {
     opacity: 1 !important;
   }
 
+  .card:nth-child(2) {
+    order: 3;
+}
+
   a {
     color: var(--text-color-two);
     transition: 0.25s ease-in-out;
@@ -660,7 +664,7 @@ h2::selection {
 
  /*    home porject area    */
     #projects {
-      margin:1% auto;
+      margin:2% auto;
       .project {
         max-height: 35rem !important;
       }
