@@ -274,6 +274,12 @@ h2::selection {
     p.desc-link {
       margin: 1rem 2.2rem;
     }
+    .isDisabled {
+      color: currentColor;
+      cursor: not-allowed;
+      opacity: 0.5;
+      text-decoration: none;
+    }
   }
 
 

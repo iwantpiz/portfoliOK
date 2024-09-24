@@ -49,6 +49,7 @@ html {
 p, li, em {
   margin: 1rem 0;
   line-height: 1.8rem;
+  text-rendering: optimizeLegibility;
 }
 
 /* Reset default styling */
