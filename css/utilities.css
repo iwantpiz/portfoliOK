@@ -709,9 +709,16 @@ h2::selection {
         }
     }
     #proj-pagination {
-      .container-btn {
-        a {
-          font-size: 1rem !important;
+      nav.pagination.container {
+        padding:0;
+        .project-link {
+          flex-flow: row !important;
+          .container-btn {
+            max-width: 45%;
+            a {
+              font-size: 1rem !important;
+            }
+          }
         }
       }
     }
