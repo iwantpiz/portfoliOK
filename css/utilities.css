@@ -709,7 +709,7 @@ h2::selection {
         }
     }
     #proj-page.container {
-      padding: 1rem;
+      /*padding: 1rem;*/
     }
 
     #proj-pagination {
@@ -727,7 +727,7 @@ h2::selection {
     .button03,
     .button04 {
       &:before {
-        content: "";
+        content: "" !important;
       }
     }
 }
