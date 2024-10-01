@@ -708,10 +708,6 @@ h2::selection {
           }
         }
     }
-    #proj-page.container {
-      /*padding: 1rem;*/
-    }
-
     #proj-pagination {
       .container-btn {
         a {
