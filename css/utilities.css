@@ -716,6 +716,7 @@ h2::selection {
             max-width: 45%;
             a {
               font-size: 1rem !important;
+              padding: 0 10px !important;
             }
           }
         }
