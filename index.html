@@ -2,19 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Primary Meta Tags -->
     <title>UI/UX Designer Alessia Caruso</title>
     <meta name="title" content="Portfolio Alessia Caruso">
     <meta name="description" content="Crafting digital solutions to boost user engagement.">
+
+     <!--   Stylesheets   -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-   
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/utilities.css">
 
 
-    <!--   favicon   -->
+    <!--   Favicons   -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/favicon-180.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32.png">
@@ -31,12 +31,13 @@
         <div class="container">
           <!-- Logo -->
           <h1 id="logo">
-            <a href="https://iwantpiz.me/">Alessia Caruso<br>
-              <span class="logo-sub">UI / UX Designer, UI Developer.</span></a>
+            <a href="https://iwantpiz.me/">
+              Alessia Caruso<br>
+              <span class="logo-sub">UI / UX Designer & Developer.</span>
+            </a>
           </h1>
           <!-- Navbar links -->
           <ul class="nav-menu">
-
             <li>
               <a class="nav-link btn btn-primary" href="https://portfoliok-6i2.pages.dev/assets/files/_Alessia-Caruso_UI-UX.pdf" target="_blank" download> RESUME </a>
             </li>
@@ -66,15 +67,12 @@
             <h2>Crafting digital solutions to boost user engagement.</h2>
           </div>
         </div>
-        
       </section>
     </header>
 
     <!-- Projects -->
-    <section id="projects" class="container project01 project02 project03 project04">
-
-        <article class="project">
-          
+    <main id="projects" class="container project01 project02 project03 project04">
+        <article class="project">    
           <div class="card">
             <div class="project-info">
               <a class="button04">
@@ -120,7 +118,7 @@
           </div>
           
         </article>
-    </section>
+      </main>
 
     <footer id="footer">
       <div class="container">
@@ -133,19 +131,19 @@
     <script>  
       $(document).ready(function(){
         $(".button02").click(function(){
-            $( "section" ).empty();
+            $( "main" ).empty();
             $( ".project02" ).load( "projects/02_pininfarina.html" );
           });
           $(".button03").click(function(){
-            $( "section" ).empty();
+            $( "main" ).empty();
             $( ".project03" ).load( "projects/03_psicoline.html" );
           });
           $(".button01").click(function(){
-            $( "section" ).empty();
+            $( "main" ).empty();
             $( ".project01" ).load( "projects/01_onadasail.html" );
           });
             $(".button04").click(function(){
-            $( "section" ).empty();
+            $( "main" ).empty();
             $( ".project04" ).load( "projects/04_noknok.html" );
         });
       });
