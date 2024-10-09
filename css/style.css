@@ -5,8 +5,8 @@
 /* variables */
 :root {
   /* Colors */
-  --primary-color: #FFB27F;
-  --secondary-color: #FFB27F;
+  --primary-color: #f1a16c;
+  --secondary-color: #f1a16c;
   --bg-primary: #ffffff;
   --text-color: #1b1b1b;
   --text-color-two: #ffffff;
@@ -70,6 +70,7 @@ a {
 
 .link {
   color: var(--primary-color);
+  font-weight: 800;
 }
 .link.is-disabled {
   cursor: not-allowed;
