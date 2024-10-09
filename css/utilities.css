@@ -294,7 +294,6 @@ h2::selection {
     .isDisabled {
       color: currentColor;
       cursor: not-allowed;
-      filter: saturate(50%);
       text-decoration: none;
     }
   }
