@@ -367,6 +367,7 @@ h2::selection {
         .info-col {
           p {
             line-height: 1.4rem !important;
+            font-size: 0.815rem;
           }
           h4 {
             font-size: 1.4rem;
