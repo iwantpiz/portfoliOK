@@ -165,7 +165,7 @@ h2::selection {
   .proj-content {
     .heroimage {
       position: relative;
-        margin-bottom: 7.5rem;
+        margin-bottom: 5.5rem;
         width: 100%;
     
       .ph-image {
@@ -181,10 +181,10 @@ h2::selection {
     .descript {
       display: flex;
       justify-content: center;
-      margin-bottom: 7.5rem;
+      margin-bottom: 5.5rem;
       .text {
         flex: 1 1 55%;
-        padding: 0 3%;
+        padding: 3%;
         ul {
           list-style: inside disc;
           li {
