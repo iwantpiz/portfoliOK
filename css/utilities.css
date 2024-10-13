@@ -190,7 +190,7 @@ h2::selection {
           li {
             margin: 0 20px;
             padding-left: 1rem;
-            text-indent: -1.5rem;
+            text-indent: -1.1rem;
           }
           ::marker {
             color: var(--primary-color);
