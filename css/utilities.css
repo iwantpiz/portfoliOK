@@ -190,7 +190,7 @@ h2::selection {
           li {
             margin: 0 20px;
             padding-left: 1rem;
-            text-indent: -1.1rem;
+            text-indent: -3.1%;
           }
           ::marker {
             color: var(--primary-color);
@@ -205,6 +205,7 @@ h2::selection {
         }
         .subtitle {
           font-size: 1.4rem;
+          font-weight: 300;
         }
       }
     }
@@ -352,6 +353,31 @@ h2::selection {
         }
     }
   }
+
+
+  #proj-info {
+    h3 {
+      font-size: 2.3rem;
+    }
+    .container {
+        display:flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        .info-col {
+          p {
+            line-height: 1.4rem !important;
+          }
+          h4 {
+            font-size: 1.4rem;
+            font-weight: 600;
+          }
+        }
+        .info-col.left {
+          max-width: 40%;
+        }
+    }
+  }
+
 
 
   #proj-pagination {
