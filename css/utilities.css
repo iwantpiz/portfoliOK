@@ -360,9 +360,6 @@ h2::selection {
       font-size: 2.3rem;
     }
     .container {
-        display:flex;
-        justify-content: space-between;
-        align-items: flex-start;
         .info-col {
           p {
             line-height: 1.4rem !important;
@@ -684,7 +681,15 @@ h2::selection {
    .project-link {
     flex-flow: column-reverse;
    }
- }
+
+   #proj-info {
+    .container {
+        display:flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+  }
+}
 
 
 /***********     FOOTER       ************/
