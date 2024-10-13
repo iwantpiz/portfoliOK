@@ -689,6 +689,13 @@ h2::selection {
    #proj-info {
     .container {
         display:block;
+        .info-col.left {
+          max-width: 100%;
+          padding-top:0;
+      }
+      .info-col {
+        padding: 3% 0;
+    }
     }
   }
 }
