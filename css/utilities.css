@@ -421,6 +421,7 @@ h2::selection {
           flex-flow: row-reverse;
           .link-text {
             text-align: left;
+            margin: 0 10px;
             }
           &:before {
             text-align: right;
@@ -429,6 +430,7 @@ h2::selection {
         .next.link {
           .link-text {
             text-align: right;
+            margin: 0 10px;
             }
         }
 
